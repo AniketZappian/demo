@@ -1,0 +1,27 @@
+.layout .topToolbar {
+  min-height: auto;
+}
+.sideMenuItem span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+.sideNavIcon svg {
+  color: #000;
+  width: 18px;
+}
+.sideNav .sideNavButton {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sideNavBox::-webkit-scrollbar {
+  width: 2px;
+  background: rgba(255, 255, 255, 0);
+}
+.sideNavBox::-webkit-scrollbar-thumb {
+  background: rgba(201, 201, 201, 0.466);
+}
+/* Active item: white text and icon on the blue pill (the icon is inverted, so black becomes white). */
+.sideNav .sideNavButton.active .sideMenuItem span {
+  color: #fff;
+}
